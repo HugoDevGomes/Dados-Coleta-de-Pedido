@@ -3,3 +3,4 @@ folium
 pandas  # Outras dependências do projeto
 plotly
 openpyxl
+streamlit_folium
