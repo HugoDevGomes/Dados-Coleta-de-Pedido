@@ -14,7 +14,7 @@ st.set_page_config(layout="wide", page_title="Geolocation Visualization App")
 # Load the data
 @st.cache_data
 def load_data():
-    data = pd.read_excel(r"C:\Users\hugo-gomes\Documents\Data Coleta.xlsx", sheet_name="DATA")
+    data = pd.read_excel(r"https://enviowhatsapp.wordpress.com/wp-content/uploads/2024/10/data-coleta.xlsx", sheet_name="DATA")
     data['DATA_BASE'] = pd.to_datetime(data['DATA_BASE'])
     data['DT_HR_EVENTO'] = pd.to_datetime(data['DT_HR_EVENTO'])
          # Calculate time difference between collections
