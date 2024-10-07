@@ -6,7 +6,6 @@ from streamlit_folium import folium_static
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-import cx_Oracle
 from pandas import DataFrame
 
 # Set page config at the very beginning
